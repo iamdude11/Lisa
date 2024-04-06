@@ -51,7 +51,7 @@ BUTTONS1 = {}
 BUTTONS2 = {}
 SPELL_CHECK = {}
 FILTER_MODE = {}
-REACTIONS = ["🔥", "❤️", "😍", "⚡"]
+REACTIONS = ["✨", "❤️", "😍", "⚡"]
 # ENABLE_SHORTLINK = ""
 
 
@@ -1966,6 +1966,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='diamond'),
             InlineKeyboardButton('7 / 7', callback_data='pagesn1'),
             InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='free')
+            nlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='free')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
         ]]
@@ -1975,7 +1976,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
       )
-        
+      
+
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
