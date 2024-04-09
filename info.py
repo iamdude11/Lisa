@@ -52,7 +52,7 @@ EVAL_ID = environ.get("EVAL_ID", "-1001566837125")
 # Referal Settings
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'sewxiy') # owner username without @
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'MrXeonTG') # owner username without @
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6497757690 5115691197').split()]
@@ -100,7 +100,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Lucy_Filter_bot")
+BOT_USERNAME = environ.get("BOT_USERNAME", "imdbfilterv4bot")
 BOT_NAME = environ.get("BOT_NAME", "𝐋ᴜᴄʏ")
 BOT_ID = environ.get("BOT_ID", "6040310745")
 S_GROUP = environ.get('S_GROUP', "weebs_support")
