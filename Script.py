@@ -12,7 +12,7 @@ class script(object):
  
     ABOUT_TXT = """
 <b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/imdbfilterv4bot">NΔNOMI</a>
-❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/Mephistodevil">𝗠𝞓𝗦𝗧𝞝𝗥</a>
+❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/MrXeonTG">𝗠𝞓𝗦𝗧𝞝𝗥</a>
 ❍ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
 ❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
