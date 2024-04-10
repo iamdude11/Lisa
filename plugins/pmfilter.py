@@ -2798,15 +2798,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('🍒 ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ 🍒', url="https://t.me/PCMOffcL")
+            InlineKeyboardButton('🍒 ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ', url="https://t.me/PCMOffcL")
        ],[
-            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 1•', url="t.me/malayalammovies_2023"),
-            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 2•', url="t.me/popcon2")
+            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 1', url="t.me/malayalammovies_2023"),
+            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 2', url="t.me/popcon2")
        ],[
-            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 3•', url="https://t.me/CInemavillaz_20"),
-            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 4•', url="https://t.me/+Al6Dl5ZY5aFmN2U1")
+            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 3', url="https://t.me/CInemavillaz_20"),
+            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 4', url="https://t.me/+Al6Dl5ZY5aFmN2U1")
        ],[
-            InlineKeyboardButton('✨ ᴀɴɪᴍᴇ & ꜱᴇʀɪᴇꜱ ✨•', url="https://t.me/Anime_Cruise_Netflix")
+            InlineKeyboardButton('💌 ᴀɴɪᴍᴇ & ꜱᴇʀɪᴇꜱ 💌', url="https://t.me/+FrPdlr6Z8qZmODM1")
        ],[ 
             InlineKeyboardButton('◁ ʙᴀᴄᴋ', callback_data='start')
         ]]
