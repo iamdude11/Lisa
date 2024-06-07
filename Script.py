@@ -358,16 +358,16 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 <b>Query: {query}
 IMDb Data:
 
-‣ ᴛɪᴛʟᴇ : <a href={url}>{title}</a>
-‣ ɢᴇɴʀᴇs : {genres}
-‣ ʏᴇᴀʀ : <a href={url}/releaseinfo>{year}</a>
-‣ ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (Based on {votes} user ratings)
-‣ ʟᴀɴɢᴜᴀɢᴇ : <code>{languages}</code></a>
-‣ ʀᴜɴᴛɪᴍᴇ : {runtime} Minutes</a>
+☘️ ᴛɪᴛʟᴇ : <a href={url}>{title}</a>
+📮 ɢᴇɴʀᴇs : {genres}
+❄️ ʏᴇᴀʀ : <a href={url}/releaseinfo>{year}</a>
+💥 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (Based on {votes} user ratings)
+🌼 ʟᴀɴɢᴜᴀɢᴇ : <code>{languages}</code></a>
+🦠 ʀᴜɴᴛɪᴍᴇ : {runtime} Minutes</a>
 
-‣ sᴛᴏʀʏ : <b>{plot}</b> 
+‌‌‌‌🌏 sᴛᴏʀʏ : <b>{plot}</b> 
 
-<b>‣ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}</b>"""
+<b>🧑‍🎤 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}</b>"""
 
     
     ALL_FILTERS = """
