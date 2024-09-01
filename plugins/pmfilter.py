@@ -1997,14 +1997,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
-        ], [
-            InlineKeyboardButton ('• ᴠɪsɪᴛ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •', url="t.me/otakuflix_network"),
-        ], [
-            InlineKeyboardButton('• ᴏᴡɴᴇʀ •', user_id=int(6497757690)),
-            InlineKeyboardButton('• ᴇᴀʀɴ •', callback_data='shortlink_info')
-        ], [
-            InlineKeyboardButton('🛰️ ʀᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️',callback_data='rendr')
-        ], [
+        ],[
+            InlineKeyboardButton ('• Bᴏᴛ uᴘᴅᴀᴛᴇs •', url="t.me/Xeonflix"),
+        ],[
+            InlineKeyboardButton('• ᴏᴡɴᴇʀ •', user_id=int(821215952)),
+            InlineKeyboardButton('• sᴏᴜʀᴄᴇ •', callback_data='source')
+        ],[
+            InlineKeyboardButton('🛰️ ꜱᴇʀᴠᴇʀ ɪɴғᴏ ☁️', callback_data='rendr')
+        ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
         await client.edit_message_media(
@@ -2019,7 +2019,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "rendr":
-        await query.answer("⚡️ ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️\n\n❂ ʀᴀᴍ ●●●●●●●◌◌◌\n✇ ᴄᴘᴜ ●●●●●●●◌◌◌\n✪ ᴅᴀᴛᴀ ᴛʀᴀꜰɪᴄs ●●●●◌◌◌◌◌◌ 🛰\n\nᴠ4.2 [sᴛᴀʙʟᴇ] """, show_alert=True)
+        await query.answer("⚡️ ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️\n\n✇ ᴄᴘᴜ : 2.6\n𖤍 ʀᴀᴍ : 58.8\n〄 ᴛᴏᴛᴀʟ ᴅɪsᴋ : 21.5 GiB\n✿ ᴜsᴇᴅ sᴘᴀᴄᴇ : 827.21 MiB (4.0%)\n✫ ғʀᴇᴇ sᴘᴀᴄᴇ : 19.58 GiB\n♡ ᴅᴀᴛᴀ ᴛʀᴀꜰɪᴄs ●●●●◌◌◌◌◌◌\n✪ ᴜᴘᴛɪᴍᴇ ●●●●●●●◌◌◌ 🛰\n\nᴠ4.4 [sᴛᴀʙʟᴇ] """, show_alert=True)
 
     elif query.data == "disclaimer":
         buttons = [[
@@ -2798,17 +2798,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('🍒 ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ', url="https://t.me/XeonFlix")
+            InlineKeyboardButton('✫ ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ✫', url="https://t.me/Xeonflix")
        ],[
-            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 1', url="t.me/malayalammovies_2023"),
-            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 2', url="t.me/xeonflixmovies")
+            InlineKeyboardButton('• Bᴏᴛ uᴘᴅᴀᴛᴇs •', url="t.me/XeonBots"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx •', url="t.me/xeonflixmovies")
        ],[
-            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 3', url="https://t.me/CInemavillaz_20"),
-            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 4', url="https://t.me/+Al6Dl5ZY5aFmN2U1")
+            InlineKeyboardButton('• Aɴɪᴍᴇs •', url="https://t.me/Anime_Xeon"),
+            InlineKeyboardButton('• Tᴠ/Wᴇʙ sᴇʀɪᴇs •', url="https://t.me/SeriesXeonFlix")
        ],[
-            InlineKeyboardButton('💌 ᴀɴɪᴍᴇ & ꜱᴇʀɪᴇꜱ 💌', url="https://t.me/+FrPdlr6Z8qZmODM1")
+            InlineKeyboardButton('• Aɴɪᴍᴇ ɪɴᴅᴇx •', url="t.me/TeamXeon"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx2 •', url="t.me/X265HevcMovies01")
+       ],[
+            InlineKeyboardButton('• ʜᴇɴᴛᴀɪ •', url="https://t.me/Hentai_Xeon"),
+            InlineKeyboardButton('• Mᴏᴠɪᴇꜱ ɪɴᴅᴇx3 •', url="https://t.me/X265HevcMovies02")
+       ],[
+            InlineKeyboardButton('• 18+ Aᴅuʟᴛ ᴄʜᴀɴɴᴇʟs •', url="https://t.me/XflixAdult")
        ],[ 
-            InlineKeyboardButton('◁ ʙᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
